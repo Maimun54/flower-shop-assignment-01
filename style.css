@@ -1,0 +1,42 @@
+
+
+/* header style start  
+ 
+background: rgba(229, 84, 115, 0.10);
+
+ */
+
+.primary-btn{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+}
+.head-tile{
+    font-size: 80px;
+    width: 700px;
+    font-weight: 800px;
+}
+.head-desciption{
+    font-size: 20px;
+    width: 600px;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84,115,0.10);
+}
+.header-img{
+    /* width: 600px;
+    height: 800px; */
+    margin-top: 40px;
+}
+.header-img img {
+    width: 80%;
+}
+.header-information{
+    margin-left: 120px;
+}
