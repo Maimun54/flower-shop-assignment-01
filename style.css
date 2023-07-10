@@ -84,3 +84,27 @@ color: rgba(39, 39, 39, 0.60);
     margin-top: 60px;
     margin-bottom:60px
 }
+/* instragrm section start *
+
+*/
+.intgm-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+.intgm-discription{
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.intgm_box-post{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_post{
+    width: 300px;
+    height: 400px;
+}
