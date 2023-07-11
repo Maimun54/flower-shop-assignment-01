@@ -76,21 +76,19 @@ color: rgba(39, 39, 39, 0.60);
 .Feature_tex{
     text-align: center;
 }
-.Round_box-one{
+.Roundbox-one{
     background-color: rgba(163, 33,98,0.15);
     border-radius: 300px 300px 0px 0px;
-    /* width: 450px;
-    height: 550px; */
     padding: 32px 20px 0px 26px;
     margin: 30px;
 }
-.Round_box-two{
+.Roundbox-two{
     background-color: rgba(5, 115, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 32px 20px 0px 26px;
     margin: 30px;
 }
-.Round_box-three{
+.Roundbox-three{
  background-color: rgba(71, 125, 17, 0.15);
  border-radius: 300px 300px 0px 0px;
  padding: 32px 20px 0px 26px;
@@ -177,8 +175,7 @@ color: rgba(39, 39, 39, 0.60);
     margin: auto;
 }
 .box_post{
-    /* width: 300px;
-    height: 400px; */
+    
     display:flex;
     align-items: center;
     justify-content: center;
