@@ -5,6 +5,10 @@
 section{
     margin-bottom:50px;
 }
+img{
+    margin: 0px;
+    padding: 0px;
+}
 /* header style start  
  
 color: rgba(39, 39, 39, 0.60);
@@ -44,6 +48,7 @@ color: rgba(39, 39, 39, 0.60);
 }
 .header-img img {
     width: 80%;
+    display: block;
 }
 .header-information{
     margin-left: 120px;
@@ -71,15 +76,46 @@ color: rgba(39, 39, 39, 0.60);
 .Feature_tex{
     text-align: center;
 }
-.Round_box{
+.Round_box-01{
     background-color: rgba(163, 33,98,0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 450px;
-    height: 550px;
+    /* width: 450px;
+    height: 550px; */
+    padding: 32px 20px 0px 26px;
+    margin: 30px;
+}
+.Round_box-2{
+    background-color: rgba(5, 115, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 32px 20px 0px 26px;
+    margin: 30px;
+}
+.Round_box-3{
+ background-color: rgba(71, 125, 17, 0.15);
+ border-radius: 300px 300px 0px 0px;
+ padding: 32px 20px 0px 26px;
+ margin: 30px;
+}
+.box-flower{
+    display:block;
+    width: 310px;
+    height: 428px;
 }
 .Feature_box {
     display: flex;
     width: 78%;
+    margin: auto;
+    justify-content: center;
+}
+
+.discription{
+    display:block;
+    margin-bottom: -33px;
+    text-align: center;
+}
+.Feature-discription{
+    border-bottom: 2px solid black;
+    width: 38%;
     margin: auto;
 }
 
