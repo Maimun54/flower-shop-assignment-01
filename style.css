@@ -50,6 +50,39 @@ color: rgba(39, 39, 39, 0.60);
 }
 
 
+/* Delivery */
+.delivery_section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 78%;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: auto;
+}
+.del_part{
+    padding: 80px;
+}
+/* Feature section */
+.feature-title{
+    font-size: 30px;
+    text-align: center;
+}
+.Feature_tex{
+    text-align: center;
+}
+.Round_box{
+    background-color: rgba(163, 33,98,0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 450px;
+    height: 550px;
+}
+.Feature_box {
+    display: flex;
+    width: 78%;
+    margin: auto;
+}
+
 /* Hot deal section start 
 
 
@@ -123,10 +156,11 @@ color: rgba(39, 39, 39, 0.60);
 
 .Lates_deal{
     background-image: url("Flower Asset/Rectangle\ 9.png ");
-    width: 80%;
+    width: 78%;
     margin: auto;
     background-position: center;
     height: 400px;
+    border-radius: 8px;
 }
 .Lates_title{
     font-size: 30px;
@@ -152,5 +186,32 @@ color: rgba(39, 39, 39, 0.60);
     margin-top: 20px;
 }
 .Lates-seach{
+    text-align: center
+    ;
+}
+/* Footer section start */
+footer{
+    background: black;
+    padding: 50px;
+}
+.f_title{
+    font-size: 30px;
     text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+span{
+    color: red;
+}
+.f-discription{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.copy_right{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.40);
 }
